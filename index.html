@@ -251,7 +251,8 @@
 
 	});
 	$('.newbust').click(function(event) {
-		claerStorage();
+		setStorage('nums',0);
+		setStorage('rest',[]);
 	});
 	function drawRouletteWheel() {    
 	  var canvas = document.getElementById("wheelcanvas");    
