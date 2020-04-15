@@ -37,7 +37,7 @@
 <body>
 	<div class="htmleaf-container">
 		<div class="top">
-			<div class="form-group" style="width: 75%;display:inline-block;">
+			<div class="form-group" style="width: 59%;display:inline-block;">
 			  <input type="text" class="form-control wuyu" id="name" placeholder="请输入名称">
 			</div>
 
@@ -249,6 +249,9 @@
 		setStorage('nums',1);
 		drawRouletteWheel(); 
 
+	});
+	$('.newbust').click(function(event) {
+		claerStorage();
 	});
 	function drawRouletteWheel() {    
 	  var canvas = document.getElementById("wheelcanvas");    
